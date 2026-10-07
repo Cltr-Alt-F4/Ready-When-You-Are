@@ -1,0 +1,174 @@
+REQUIRED ASSETS LIST - Ready When You Are (Grave Keeper 2 Theme)
+=====================================================================
+
+ENVIRONMENT ASSETS
+==================
+
+Phase 1: Graveyard Day
+----------------------
+1. Background - graveyard_day.png
+   - Size: 1280x720
+   - Style: Muted green/brown cemetery, daylight
+   - Elements: Dead trees, fences, fog layers
+
+2. Tileset - graveyard_tiles.png (spritesheet)
+   - Grass tile (32x32)
+   - Dirt path tile (32x32)
+   - Cobblestone tile (32x32)
+   - Grave mound variations (5 types, 64x64 each)
+   - Tombstone variations (5 types, 64x64 each)
+   - Coffin (64x64)
+   - Crypt entrance (64x64)
+   - Shovel marker (32x32)
+
+3. Hiding Spot Graphics (15 total needed)
+   - Open grave with dirt mound (brown)
+   - Small tombstone (gray stone)
+   - Large tombstone (gray stone with cross)
+   - Wooden coffin (brown)
+   - Crypt entrance (dark stone)
+   - Shovel stuck in ground (wood/metal)
+   - Pile of bones (white/gray)
+   - Broken fence section (wood)
+   - Dead tree stump (brown)
+   - Stone well (gray)
+   - Grave marker (wooden cross)
+   - Buried coffin (dirt mound)
+   - Mausoleum door (dark stone)
+   - Skeleton half-buried (white/brown)
+   - Old shovel (rusty metal)
+
+Phase 2: Night Cemetery
+------------------------
+1. Background - graveyard_night.png
+   - Size: 1280x720
+   - Style: Dark cemetery at night
+   - Elements: Moonlight, dead trees, fog, shadows
+
+2. Shrine Graphics (3 total needed)
+   - Ancient tombstone (weathered gray, 80x80)
+   - Crypt altar (dark stone, 80x80)
+   - Grave monument (ornate stone, 80x80)
+
+3. Environmental Effects
+   - Rain overlay (transparent png)
+   - Lightning flash overlay (white/blue tint)
+   - Fog layer (transparent gray)
+   - Dead tree silhouettes (black)
+
+4. Lighting Effects
+   - Flashlight cone (yellow gradient, transparent)
+   - Echolocation pulse (green rings, transparent)
+   - Moonlight glow (pale blue, transparent)
+   - Torch light (orange/yellow, transparent)
+
+CHARACTER SPRITES
+=================
+
+Hider (Grave Keeper)
+--------------------
+1. Character Spritesheet - hider_spritesheet.png
+   - Frame size: 32x32 or 48x48
+   - Animations:
+     * Idle (4 frames) - standing, breathing
+     * Walk (6-8 frames) - directional movement
+     * Dig (4 frames) - shovel animation
+     * Place item (4 frames) - placing in grave
+     * Run (4 frames) - sprinting
+   - Design: Hooded robe, medieval clothing, carries shovel/lantern
+   - Colors: Dark browns, grays, muted greens
+
+Seeker (Undead/Zombie)
+----------------------
+1. Character Spritesheet - seeker_spritesheet.png
+   - Frame size: 32x32 or 48x48
+   - Animations:
+     * Idle (4 frames) - shambling, groaning
+     * Walk (6-8 frames) - zombie shuffle
+     * Lunge (4 frames) - attack animation
+     * Echolocation (4 frames) - pulse effect
+   - Design: Zombie/ghoul appearance, tattered clothes, glowing eyes
+   - Colors: Decaying greens, purples, grays
+
+POWER-UP ICONS & EFFECTS
+=========================
+
+1. Power-up Icons (32x32 each)
+   - Rubber Shoes → Ghostly footprints icon
+   - Snowball → Soul orb/ectoplasm ball
+   - Alarm → Bell/tombstone rattle
+   - Dummy → Decoy corpse/skeleton
+
+2. Power-up Effects
+   - Snowball projectile (blue/white orb)
+   - Alarm ring (red expanding circle)
+   - Dummy decoy (purple silhouette)
+   - Rubber shoes trail (footstep prints)
+
+UI ASSETS
+=========
+
+1. Lobby Screen
+   - Background: Gothic cemetery (1280x720)
+   - Title: "READY WHEN YOU ARE" (ornate gothic font)
+   - Buttons: Coffin-shaped (ready, play again)
+   - Decorations: Candles, skulls, bones
+
+2. Game HUD Elements
+   - Timer display: Hourglass or skull countdown
+   - Item counter: Bone tally marks
+   - Power-up inventory: Spellbook or scroll panel
+   - Cooldown indicators: Blood moon phases or candle burning
+   - Role indicator: "HIDER" / "SEEKER" badges
+
+3. Game Over Screen
+   - Background: Tombstone or coffin motif
+   - Victory/Defeat decorations
+   - Buttons: Bone or skull styled
+
+4. General UI
+   - Panels: Dark wood/stone texture with ornate borders
+   - Buttons: Medieval style with bone/wood textures
+   - Fonts: Gothic/medieval style (TTF or web font)
+   - Icons: Skulls, bones, candles, shovels
+
+COLOR PALETTE REFERENCE
+=======================
+
+Primary Colors:
+- Background: #1a1a2e (dark blue-gray)
+- Grass: #2d4a3e (muted green)
+- Dirt: #3d2e1f (dark brown)
+- Stone: #4a4a5a (gray)
+- Accent: #6b21a8 (purple for magic/undead)
+- Highlight: #e94560 (red for danger)
+
+Lighting:
+- Torch light: #ffd700 (yellow-gold)
+- Moonlight: #c0c0ff (pale blue)
+- Lightning: #ffffff (white flash)
+- Echolocation: #4ade80 (green spectral)
+
+FILE FORMATS
+============
+- PNG format for all sprites (supports transparency)
+- Spritesheets should have consistent frame sizes
+- Keep file sizes optimized for web loading
+- Consider using sprite atlases for performance
+
+PRIORITY ORDER
+==============
+1. Phase 1 environment (graveyard tiles, hiding spots)
+2. Character sprites (hider and seeker base)
+3. Phase 2 environment (night cemetery, shrines)
+4. UI styling (panels, buttons, HUD)
+5. Effects (rain, lightning, lighting)
+6. Power-up icons and effects
+
+NOTES
+=====
+- All assets should be pixel art style
+- Maintain consistent art direction throughout
+- Test assets in-game before finalizing
+- Ensure good contrast for gameplay visibility
+- Support both mobile and desktop resolutions
