@@ -1,6 +1,22 @@
 {
+  "name": "testing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "node server.js"
+  },
+  "devDependencies": {
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  },
   "dependencies": {
     "phaser": "^4.2.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
     "ws": "^8.14.2"
   }
 }
